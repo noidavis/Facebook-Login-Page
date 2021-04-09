@@ -1,0 +1,206 @@
+body{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+
+    
+    font-family: 'Krona-One', 'Lucida Sans Regular';
+    background: linear-gradient(white, rgb(232, 222, 211));
+}
+#header_section{
+    width: 100%;
+    min-width: 980px;
+    background-color: #FF9F1C;
+}
+#header{
+    width: 980px;
+    margin: 0 auto;
+    padding: 0px;
+    height: 85px;
+    
+}
+#header li{
+    list-style-type: none;
+    float: left;
+    text-align: left;
+    color: white;
+}
+#header form li{
+    font-size: 13px;
+}
+#header #website_name{
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+#header form{
+    margin-top: 15px;
+    float: right;
+   
+    
+}
+#header form input[type="text"]{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 150px;
+    
+    height: 20px;
+    padding-left: 3px;
+}
+#header form input[type="password"]{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    width: 150px;
+   
+    height: 20px;
+    padding-left: 3px;
+}
+#header form input[type="submit"]{
+    margin-top: 18px;
+    margin-left: 5px;
+    height: 25px;
+    background-color: #0e385f;
+    color: white;
+}
+
+
+
+
+
+
+#middle_section{
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    width: 980px;
+  
+}
+#middle_section div{
+    float: left;
+    font-family:  sans-serif;
+}
+#middle_section #mleft{
+    margin-top: 30px;
+    width: 590px;
+    text-align: left;
+}
+#middle_section #mleft p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    color: #0e385f;
+
+}
+#middle_section #mright{
+    margin-top: 10px;
+    width: 390px;
+    text-align: left;
+   
+}
+#middle_section #mleft h1{
+    font-size: 37px;
+    margin: 0px;
+    color: #2E2E2E;
+}
+
+#middle_section #mright h1{
+    margin-bottom: 7px;
+    color: #FF9F1C;
+   
+  
+    
+}
+#middle_section #mright p{
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #0e385f;
+}
+#middle_section #mright li{
+   list-style-type: none;
+   margin-top: 0px; 
+}
+
+#middle_section #mright li #firstname{
+    width: 38%;
+}
+#middle_section #mright li #surname{
+    margin-left: 22px;
+    width: 49%;
+}
+#middle_section #mright li input[type="text"]{
+    margin-top: 10px;
+    width: 97%;
+    height: 33px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #BDBDBD;
+}
+#middle_section #mright li input[type="password"]{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 97%;
+    height: 33px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #BDBDBD;
+}
+
+
+
+
+#middle_section  #mright #birthday{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#middle_section  #mright #gender{
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+#middle_section #mright li select{
+    height: 33px;
+    padding: 4px;
+    float: left;
+}
+#middle_section #mright li input[type="radio"]{
+    margin-left: 10px;
+}
+
+#middle_section #mright #terms{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.signup{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #006117;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background-color:  #FF9F1C;
+
+}
+#create{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom:120px ;
+}
